@@ -1,0 +1,21 @@
+.home-banner-outer {
+    background-color: var(--site-color-13);
+}
+
+.hbo-diagonal-patbg {
+    --distance: 70px;
+    --line-width: 2px;
+    background-image: repeating-linear-gradient(45deg, var(--site-color-15) 0, var(--site-color-15) var(--line-width), transparent 0, transparent 50%);
+    background-size: var(--distance) var(--distance);
+}
+
+.home-banner-main {
+    padding: 100px 0px;
+    min-height: 100vh;
+}
+
+@media (max-width: 767px) {
+    .hbo-diagonal-patbg {
+        --distance: 50px;
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "gt-portfolio",
+  "version": "1.0.0",
+  "description": "Hi, I am Gandhar Thakar, I am very passionate for building beautiful and user-friendly website interfaces. I have a strong understanding of web development.",
+  "homepage": "https://github.com/gandharthakar/gt-portfolio#readme",
+  "bugs": {
+    "url": "https://github.com/gandharthakar/gt-portfolio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gandharthakar/gt-portfolio.git"
+  },
+  "license": "ISC",
+  "author": "Gandhar Thakar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "compile-css": "sass scss/:css/ --style expanded",
+    "prefix-css": "postcss css/**/*.css -u autoprefixer -b 'last 100 versions' --map=false --dir css/",
+    "minify-css": "css-minify -d css/ -o css/",
+    "build-css": "npm-run-all compile-css prefix-css minify-css",
+    "watch": "nodemon --watch scss/ --ext scss --exec \"npm-run-all build-css\""
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "css-minify": "^2.0.2",
+    "nodemon": "^3.1.9",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.49",
+    "postcss-cli": "^11.0.0",
+    "sass": "^1.83.0"
+  },
+  "browserslist": [
+    "last 100 versions"
+  ]
+}
