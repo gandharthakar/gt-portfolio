@@ -62,6 +62,14 @@
                 color: var(--site-color-5);
             }
         }
+
+        & .link {
+            color: rgba(0, 0, 0, 0.70);
+
+            &:hover {
+                color: var(--site-color-9);
+            }
+        }
     }
 }
 
@@ -125,6 +133,14 @@
                 color: var(--site-color-5);
             }
         }
+
+        & .link {
+            color: rgba(0, 0, 0, 0.70);
+
+            &:hover {
+                color: var(--site-color-9);
+            }
+        }
     }
 }
 
@@ -183,6 +199,14 @@
 
     .socl-item {
         & a {
+            color: rgba(0, 0, 0, 0.70);
+
+            &:hover {
+                color: var(--site-color-9);
+            }
+        }
+
+        & .link {
             color: rgba(0, 0, 0, 0.70);
 
             &:hover {

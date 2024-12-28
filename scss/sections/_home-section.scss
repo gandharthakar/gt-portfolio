@@ -7,15 +7,143 @@
     --line-width: 2px;
     background-image: repeating-linear-gradient(45deg, var(--site-color-15) 0, var(--site-color-15) var(--line-width), transparent 0, transparent 50%);
     background-size: var(--distance) var(--distance);
+    background-position: -36px 0px;
 }
 
 .home-banner-main {
-    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    padding: 100px 0px 50px 0px;
     min-height: 100vh;
+}
+
+.hb-inner {
+    width: 100%;
+    max-width: 550px;
+}
+
+.hb-inner-box {
+    width: 100%;
+    padding: 20px;
+    background-color: var(--site-color-7);
+    border: 2px solid var(--site-color-9);
+    box-shadow: 4px 3px 0px var(--site-color-9);
+}
+
+.hbpad-1 {
+    padding-bottom: 20px;
+}
+
+.hbpad-2 {
+    padding-bottom: 20px;
+}
+
+.hb-text-s1 {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    color: var(--site-color-9);
+    font-family: var(--site-fornt-2), system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+
+    & .name {
+        font-weight: 600;
+        color: var(--site-color-1);
+    }
+}
+
+.hb-text-s2 {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    color: var(--site-color-9);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.hb-cta-outer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--site-std-gutter-space-1) 20px;
+}
+
+.hb-download-cvbtn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0px;
+    font-family: var(--site-fornt-2), system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid var(--site-color-9);
+    background-color: var(--site-color-1);
+    color: var(--site-color-2);
+    box-shadow: 2px 2px 0px var(--site-color-9);
+    border-radius: 50px;
+    position: relative;
+
+    & .base {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    & .svg-icon {
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+    }
+
+    & .desk-text {
+        display: initial;
+    }
+
+    & .mob-text {
+        display: none;
+    }
+
+    &:hover,
+    &:active {
+        text-decoration: none;
+    }
 }
 
 @media (max-width: 767px) {
     .hbo-diagonal-patbg {
         --distance: 50px;
+        background-position: -1px 0px;
+    }
+
+    .hb-inner-box {
+        box-shadow: 3px 3px 0px var(--site-color-9);
+    }
+
+    .hb-text-s1 {
+        font-size: 24px;
+    }
+
+    .hb-text-s2 {
+        font-size: 18px;
+    }
+
+    .hb-download-cvbtn {
+        padding: 8px 15px;
+
+        & .svg-icon {
+            width: 20px;
+            height: 20px;
+        }
+
+        & .desk-text {
+            display: none;
+        }
+
+        & .mob-text {
+            display: initial;
+        }
     }
 }

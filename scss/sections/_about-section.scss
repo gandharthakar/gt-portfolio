@@ -1,0 +1,116 @@
+.about-section-outer {
+    --abs-distance: 70px;
+    --abs-line-width: 2px;
+    background-image: linear-gradient(var(--site-color-1) var(--abs-line-width), transparent var(--abs-line-width)), linear-gradient(to right, var(--site-color-1) var(--abs-line-width), transparent var(--abs-line-width));
+    background-size: var(--abs-distance) var(--abs-distance);
+    background-color: var(--site-color-2);
+}
+
+.abs-main {
+    display: flex;
+    gap: 25px;
+    align-items: start;
+    padding: 100px 0px 50px 0px;
+    min-height: 100vh;
+    max-width: 900px;
+}
+
+.abs-photo-box {
+    width: 100%;
+    min-width: 300px;
+    max-width: 300px;
+    background-color: var(--site-color-5);
+    border: 2px solid var(--site-color-3);
+    box-shadow: 4px 3px 0px var(--site-color-3);
+
+    & img {
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.abs-content-box {
+    width: 100%;
+    padding: 20px;
+    background-color: var(--site-color-5);
+    border: 2px solid var(--site-color-3);
+    box-shadow: 4px 3px 0px var(--site-color-3);
+}
+
+.abspad-1 {
+    padding-bottom: 15px;
+}
+
+.abspad-2 {
+    padding-bottom: 20px;
+}
+
+.abspad-3 {
+    padding-bottom: 5px;
+}
+
+.abs-title-s1 {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--site-color-1);
+}
+
+.abs-descr-s1 {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--site-color-3);
+
+    & .spacer-1 {
+        height: 20px;
+    }
+}
+
+.abs-descr-s2 {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--site-color-3);
+}
+
+@media (max-width: 767px) {
+    .about-section-outer {
+        --abs-distance: 50px;
+    }
+
+    .abs-main {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .abs-main {
+        flex-direction: column;
+    }
+
+    .abs-photo-box {
+        min-width: auto;
+        max-width: none;
+        box-shadow: 3px 3px 0px var(--site-color-3);
+    }
+
+    .abs-content-box {
+        box-shadow: 3px 3px 0px var(--site-color-3);
+    }
+
+    .abs-title-s1 {
+        font-size: 20px;
+    }
+
+    .abs-descr-s1 {
+        font-size: 16px;
+    }
+}
