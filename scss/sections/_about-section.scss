@@ -1,3 +1,5 @@
+@use './../partials/variables' as *;
+
 .about-section-outer {
     --abs-distance: 70px;
     --abs-line-width: 2px;
@@ -9,7 +11,7 @@
 .abs-main {
     display: flex;
     gap: 25px;
-    align-items: start;
+    align-items: center;
     padding: 100px 0px 50px 0px;
     min-height: 100vh;
     max-width: 900px;
@@ -83,13 +85,15 @@
     color: var(--site-color-3);
 }
 
-@media (max-width: 767px) {
-    .about-section-outer {
-        --abs-distance: 50px;
-    }
-
+@media (max-width: $mob_mqbp_1) {
     .abs-main {
         padding: 50px 0px 50px 0px;
+    }
+}
+
+@media (max-width: $std_mob_mqbp_1) {
+    .about-section-outer {
+        --abs-distance: 50px;
     }
 
     .abs-main {

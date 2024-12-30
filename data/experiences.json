@@ -1,0 +1,62 @@
+[
+    {
+        "experience_id": "exp_01",
+        "company_logo": "textronics-logo.jpg",
+        "experience_tags": [
+            "Adobe Photoshop"
+        ],
+        "experience_title": "3D Mesh Designer",
+        "company_name": "Textronics Design Systems (I) Pvt. Ltd.",
+        "compnay_website": "https://www.textronic.com",
+        "company_location": "Mahape, Ghansoli (West), Navi Mumbai",
+        "working_experience": "2 Years, 5 Months",
+        "working_period": "April 2013 - August 2015",
+        "designation_post": "3D Mesh Designer"
+    },
+    {
+        "experience_id": "exp_02",
+        "company_logo": "achieveee-logo.jpg",
+        "experience_tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "jQuery",
+            "Bootstrap"
+        ],
+        "experience_title": "Frontend Developer",
+        "company_name": "Achieveee Design And Development",
+        "compnay_website": "https://achieveee.com",
+        "company_location": "Kalyan - (West).",
+        "working_experience": "2 Years, 8 Months",
+        "working_period": "07 October 2015 - 07 May 2018",
+        "designation_post": "Frontend Developer"
+    },
+    {
+        "experience_id": "exp_03",
+        "company_logo": "achieveee-logo.jpg",
+        "experience_tags": [
+            "Wordpress",
+            "Laravel",
+            "Electron JS"
+        ],
+        "experience_title": "Senior Frontend Developer",
+        "company_name": "Achieveee Design And Development",
+        "compnay_website": "https://achieveee.com",
+        "company_location": "Kalyan - (West).",
+        "working_experience": "2 Years, 7 Months",
+        "working_period": "14 June 2021 - 08 December 2023",
+        "designation_post": "Senior Frontend Developer"
+    },
+    {
+        "experience_id": "exp_04",
+        "company_logo": "vi-logo.jpg",
+        "experience_tags": [],
+        "experience_title": "CRE",
+        "company_name": "Vodafone Idea Limited",
+        "compnay_website": "https://www.myvi.in",
+        "company_location": "Kalyan - (West).",
+        "working_experience": "1 Month",
+        "working_period": "06 July 2024 - 31 July 2024",
+        "designation_post": "CRE"
+    }
+]

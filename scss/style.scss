@@ -2,12 +2,15 @@
 @use './utils/_base-styles';
 
 // Components
+@use './components/text';
 @use './components/header';
 @use './components/theme-switcher';
 
 // Sections
 @use './sections/home-section';
 @use './sections/about-section';
+@use './sections/skills-sections';
+@use './sections/experience-section';
 
 // dark-mode css
 @use './utils/dark';

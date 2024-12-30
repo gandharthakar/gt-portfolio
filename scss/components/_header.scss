@@ -1,4 +1,7 @@
+@use './../partials/variables' as *;
+
 /* ---- HEADER ----- */
+
 .header-outer {
     position: fixed;
     top: 0px;
@@ -36,7 +39,7 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: $mob_mqbp_1) {
     .header-outer {
         margin-top: 0px;
     }
@@ -105,7 +108,7 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: $mob_mqbp_1) {
     .mtb-par {
         display: inline-block;
     }
@@ -179,7 +182,7 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: $mob_mqbp_1) {
     .site-nav {
         display: none;
         position: absolute;
@@ -260,7 +263,7 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: $mob_mqbp_1) {
     .socl-outer {
         display: none;
 

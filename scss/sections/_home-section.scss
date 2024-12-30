@@ -1,3 +1,5 @@
+@use './../partials/variables' as *;
+
 .home-banner-outer {
     background-color: var(--site-color-13);
 }
@@ -112,7 +114,7 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: $std_mob_mqbp_1) {
     .hbo-diagonal-patbg {
         --distance: 50px;
         background-position: -1px 0px;

@@ -1,0 +1,108 @@
+[
+    {
+        "skills_section_id": "sks_01",
+        "skills_section_title": "Frontend",
+        "skills": [
+            "HTML",
+            "CSS",
+            "SASS",
+            "Tailwind CSS",
+            "jQuery",
+            "React",
+            "Electron JS",
+            "Bootstrap",
+            "Dexie.js for IndexedDB"
+        ]
+    },
+    {
+        "skills_section_id": "sks_02",
+        "skills_section_title": "Backend",
+        "skills": [
+            "PHP",
+            "Node JS",
+            "Express JS",
+            "JWT",
+            "NextAuth"
+        ]
+    },
+    {
+        "skills_section_id": "sks_03",
+        "skills_section_title": "Fullstack (Frontend + Backend)",
+        "skills": [
+            "JavaScript",
+            "TypeScript",
+            "Next JS",
+            "Apollo (Client + Server)",
+            "GraphQL",
+            "Laravel",
+            "Wordpress"
+        ]
+    },
+    {
+        "skills_section_id": "sks_04",
+        "skills_section_title": "Databases",
+        "skills": [
+            "MySQL",
+            "PostgreSQL",
+            "MongoDB"
+        ]
+    },
+    {
+        "skills_section_id": "sks_05",
+        "skills_section_title": "ORM + ODM",
+        "skills": [
+            "Prisma",
+            "Mongoose"
+        ]
+    },
+    {
+        "skills_section_id": "sks_06",
+        "skills_section_title": "NPM Packages & Libraries",
+        "skills": [
+            "Redux Toolkit",
+            "Zustand",
+            "React Hook Form",
+            "Zod",
+            "TanStack Query",
+            "SWR",
+            "ShadCN UI"
+        ]
+    },
+    {
+        "skills_section_id": "sks_07",
+        "skills_section_title": "UI Tools",
+        "skills": [
+            "Figma",
+            "Adobe Photoshop",
+            "Adobe Illustrator",
+            "Adobe XD"
+        ]
+    },
+    {
+        "skills_section_id": "sks_08",
+        "skills_section_title": "Version Control",
+        "skills": [
+            "Github",
+            "Gitlab"
+        ]
+    },
+    {
+        "skills_section_id": "sks_09",
+        "skills_section_title": "AI - Artificial Intelligence",
+        "skills": [
+            "Google Gemini",
+            "ChatGPT",
+            "v0.dev",
+            "bolt.dev",
+            "cursor",
+            "claude"
+        ]
+    },
+    {
+        "skills_section_id": "sks_10",
+        "skills_section_title": "DevOps",
+        "skills": [
+            "Docker"
+        ]
+    }
+]
