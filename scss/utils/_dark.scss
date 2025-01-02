@@ -71,6 +71,10 @@
             }
         }
     }
+
+    .design-circle-2 {
+        opacity: 0.70;
+    }
 }
 
 :root[theme-mode="dark"] {
@@ -141,6 +145,10 @@
                 color: var(--site-color-9);
             }
         }
+    }
+
+    .design-circle-2 {
+        opacity: 0.70;
     }
 }
 
@@ -213,5 +221,9 @@
                 color: var(--site-color-9);
             }
         }
+    }
+
+    .design-circle-2 {
+        opacity: 0.80;
     }
 }

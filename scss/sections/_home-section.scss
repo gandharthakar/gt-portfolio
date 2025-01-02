@@ -1,7 +1,9 @@
 @use './../partials/variables' as *;
 
 .home-banner-outer {
-    background-color: var(--site-color-13);
+    background-color: var(--site-color-7);
+    position: relative;
+    overflow: hidden;
 }
 
 .hbo-diagonal-patbg {
@@ -10,6 +12,32 @@
     background-image: repeating-linear-gradient(45deg, var(--site-color-15) 0, var(--site-color-15) var(--line-width), transparent 0, transparent 50%);
     background-size: var(--distance) var(--distance);
     background-position: -36px 0px;
+}
+
+.design-circle-1 {
+    position: absolute;
+    left: -30%;
+    top: 5%;
+    width: 40%;
+    height: 60%;
+    background-color: var(--site-color-1);
+    z-index: 1;
+    border-radius: 50%;
+    filter: blur(50px);
+    opacity: 0.50;
+}
+
+.design-circle-2 {
+    position: absolute;
+    right: -13%;
+    bottom: 0%;
+    width: 40%;
+    height: 60%;
+    background-color: var(--site-color-2);
+    z-index: 1;
+    border-radius: 50%;
+    filter: blur(50px);
+    opacity: 0.80;
 }
 
 .home-banner-main {
@@ -24,12 +52,14 @@
 .hb-inner {
     width: 100%;
     max-width: 550px;
+    position: relative;
+    z-index: 5;
 }
 
 .hb-inner-box {
     width: 100%;
     padding: 20px;
-    background-color: var(--site-color-7);
+    background-color: var(--site-color-10);
     border: 2px solid var(--site-color-9);
     box-shadow: 4px 3px 0px var(--site-color-9);
 }
@@ -118,6 +148,15 @@
     .hbo-diagonal-patbg {
         --distance: 50px;
         background-position: -1px 0px;
+    }
+
+    .design-circle-1 {
+        left: -80%;
+        width: 100%;
+    }
+
+    .design-circle-2 {
+        width: 60%;
     }
 
     .hb-inner-box {

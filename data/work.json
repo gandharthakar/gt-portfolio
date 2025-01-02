@@ -1,0 +1,174 @@
+{
+    "commercial_work": [
+        {
+            "work_id": "com_work_01",
+            "work_title": "Paperplanes",
+            "work_thumb_image": "paper-planes-project-thumb.jpg",
+            "work_description": "Paper Planes, as an organisation, is made up of a group of sub-brands that work in the space of design and creativity.",
+            "work_tags": [
+                "cms",
+                "php",
+                "wordpress"
+            ],
+            "work_github_link": "",
+            "work_deployment_link": "https://www.joinpaperplanes.com"
+        },
+        {
+            "work_id": "com_work_02",
+            "work_title": "Weekend Investing",
+            "work_thumb_image": "weekend-investing-project-thumb.jpg",
+            "work_description": "We run simple rule based portfolio strategies to pick the strongest stocks and let them go when they lose strength.",
+            "work_tags": [
+                "cms",
+                "php",
+                "wordpress"
+            ],
+            "work_github_link": "",
+            "work_deployment_link": "https://weekendinvesting.com"
+        },
+        {
+            "work_id": "com_work_03",
+            "work_title": "Neon Fund",
+            "work_thumb_image": "neon-project-thumb.jpg",
+            "work_description": "At Neon, we love startups. We see them as a chance for infinite growth within a short period.",
+            "work_tags": [
+                "cms",
+                "php",
+                "wordpress"
+            ],
+            "work_github_link": "",
+            "work_deployment_link": "https://neon.fund"
+        },
+        {
+            "work_id": "com_work_04",
+            "work_title": "Deco In Delhi",
+            "work_thumb_image": "deco-in-delhi-project-thumb.jpg",
+            "work_description": "Deco in Delhi is a narrative building exercise that looks into the city’s architectural history through an alternative lens.",
+            "work_tags": [
+                "cms",
+                "php",
+                "wordpress"
+            ],
+            "work_github_link": "",
+            "work_deployment_link": "https://decoindelhi.com"
+        },
+        {
+            "work_id": "com_work_05",
+            "work_title": "Soda Films",
+            "work_thumb_image": "soda-films-project-thumb.jpg",
+            "work_description": "Soda Films was founded by Ameya Dahibavkar in Year 2007. We are a production house based in Mumbai.",
+            "work_tags": [
+                "cms",
+                "php",
+                "wordpress"
+            ],
+            "work_github_link": "",
+            "work_deployment_link": "https://sodafilms.co.in"
+        },
+        {
+            "work_id": "com_work_06",
+            "work_title": "Mathieu Lustrerie",
+            "work_thumb_image": "ml-project-thumb.jpg",
+            "work_description": "Founded in 1948 by Henri Mathieu in the Chutes-Lavie district of Marseille, the Mathieu Lustrerie Atelier has always associated its name with the art of the light.",
+            "work_tags": [
+                "cms",
+                "laravel"
+            ],
+            "work_github_link": "",
+            "work_deployment_link": "https://mathieulustrerie.com"
+        },
+        {
+            "work_id": "com_work_07",
+            "work_title": "Pixel Vision",
+            "work_thumb_image": "",
+            "work_description": "Pixel Vision has developed a robust, modular, and scalable cloud-based platform to analyse geospatial and imaging data.",
+            "work_tags": [
+                "cms",
+                "php",
+                "wordpress"
+            ],
+            "work_github_link": "",
+            "work_deployment_link": "https://pixelvision.io"
+        },
+        {
+            "work_id": "com_work_08",
+            "work_title": "Aranyaka Farms",
+            "work_thumb_image": "aranyakaa-project-thumb.jpg",
+            "work_description": "A venture of a Elegance Infra, Aranyakaa Farms is a specialized development brand focused on creating future forward lifestyle farmland projects.",
+            "work_tags": [
+                "cms",
+                "php",
+                "wordpress"
+            ],
+            "work_github_link": "",
+            "work_deployment_link": "https://aranyakaa.com"
+        },
+        {
+            "work_id": "com_work_09",
+            "work_title": "Oddly Enough",
+            "work_thumb_image": "oddly-enough-project-thumb.jpg",
+            "work_description": "Oddly Enough is an initiative by Paper Planes, a design + culture publication.",
+            "work_tags": [
+                "cms",
+                "php",
+                "wordpress"
+            ],
+            "work_github_link": "",
+            "work_deployment_link": "https://oddlyenough.joinpaperplanes.com"
+        },
+        {
+            "work_id": "com_work_10",
+            "work_title": "Collective Design Toolkit",
+            "work_thumb_image": "cdt-project-thumb.jpg",
+            "work_description": "A Collective Design pedagogy is an idea for a socially engaged learning practice that involves schoolchildren in the production of their city.",
+            "work_tags": [
+                "cms",
+                "php",
+                "wordpress"
+            ],
+            "work_github_link": "",
+            "work_deployment_link": "https://collectivedesigntoolkit.org"
+        }
+    ],
+    "personal_work": [
+        {
+            "work_id": "per_work_01",
+            "work_title": "GTRecipes Project",
+            "work_thumb_image": "gtrecipes-project-thumb.jpg",
+            "work_description": "GTRecipes is the project built with MERN Stack. In this project you can create recipes of your choice and showcase you talent.",
+            "work_tags": [
+                "MERN",
+                "GraphQL",
+                "Fullstack"
+            ],
+            "work_github_link": "https://github.com/gandharthakar/gtrecipes-project",
+            "work_deployment_link": "https://gtrecipes.netlify.app"
+        },
+        {
+            "work_id": "per_work_02",
+            "work_title": "QuizFesto Platform",
+            "work_thumb_image": "quizfesto-project-thumb.jpg",
+            "work_description": "QuizeFesto is the online platform where you can participate on many quizzes created by our team and win excited prizes.",
+            "work_tags": [
+                "Next JS",
+                "Vercel",
+                "PostgreSQL"
+            ],
+            "work_github_link": "https://github.com/gandharthakar/quizfesto-platform",
+            "work_deployment_link": "https://quizfesto-platform.vercel.app"
+        },
+        {
+            "work_id": "per_work_03",
+            "work_title": "Progress Tracker App",
+            "work_thumb_image": "pt-app-project-thumb.jpg",
+            "work_description": "This is very simple tool where you can track your dailly tasks & its progress visually.",
+            "work_tags": [
+                "MERN",
+                "Tanstack Query",
+                "Fullstack"
+            ],
+            "work_github_link": "https://github.com/gandharthakar/progress-tracker-app",
+            "work_deployment_link": "https://progress-tracker-app.netlify.app"
+        }
+    ]
+}
