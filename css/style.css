@@ -423,6 +423,15 @@ body {
   width: 20px;
   height: 20px;
 }
+.theme-switch-button .system-icon {
+  display: inline-block;
+}
+.theme-switch-button .light-icon {
+  display: none;
+}
+.theme-switch-button .dark-icon {
+  display: none;
+}
 .theme-switch-button:hover, .theme-switch-button:active {
   background-color: transparent;
   color: var(--site-color-9);

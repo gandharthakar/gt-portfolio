@@ -32,6 +32,18 @@
         height: 20px;
     }
 
+    & .system-icon {
+        display: inline-block;
+    }
+
+    & .light-icon {
+        display: none;
+    }
+
+    & .dark-icon {
+        display: none;
+    }
+
     &:hover,
     &:active {
         background-color: transparent;

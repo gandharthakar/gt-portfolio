@@ -27,15 +27,15 @@
     .theme-switch-button {
         color: rgba(255, 255, 255, 0.70);
 
-        .system-icon {
+        & .system-icon {
             display: inline-block;
         }
 
-        .light-icon {
+        & .light-icon {
             display: none;
         }
 
-        .dark-icon {
+        & .dark-icon {
             display: none;
         }
 
@@ -102,15 +102,15 @@
     .theme-switch-button {
         color: rgba(255, 255, 255, 0.70);
 
-        .system-icon {
+        & .system-icon {
             display: none;
         }
 
-        .light-icon {
+        & .light-icon {
             display: inline-block;
         }
 
-        .dark-icon {
+        & .dark-icon {
             display: none;
         }
 
@@ -178,15 +178,15 @@
     .theme-switch-button {
         color: rgba(0, 0, 0, 0.40);
 
-        .system-icon {
+        & .system-icon {
             display: none;
         }
 
-        .light-icon {
+        & .light-icon {
             display: none;
         }
 
-        .dark-icon {
+        & .dark-icon {
             display: inline-block;
         }
 
