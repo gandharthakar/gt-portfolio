@@ -256,6 +256,14 @@
         }
     }
 
+    & .link-0 {
+        color: rgba(255, 255, 255, 0.70);
+
+        &:hover {
+            color: var(--site-color-4);
+        }
+    }
+
     & .svg-icon {
         display: inline-block;
         width: 25px;

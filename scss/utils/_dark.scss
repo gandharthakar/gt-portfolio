@@ -221,6 +221,14 @@
                 color: var(--site-color-9);
             }
         }
+
+        & .link-0 {
+            color: rgba(255, 255, 255, 0.70);
+
+            &:hover {
+                color: var(--site-color-4);
+            }
+        }
     }
 
     .design-circle-2 {

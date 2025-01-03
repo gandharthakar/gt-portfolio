@@ -59,7 +59,7 @@ const prepHTML = (selector, data) => {
                 <div class="inner-box">
                     <div>
                         <div class="wktbpngdit-imgcnt">
-                            <a href="#" title="${item.work_title}" target="_blank">
+                            <a href="${item.work_deployment_link}" title="${item.work_title}" target="_blank">
                                 <img src="${item.work_thumb_image ? `${basePath}/final/${item.work_thumb_image}` : pimgPath}"
                                     width="388px" height="193px" alt="${item.work_title}" />
                             </a>

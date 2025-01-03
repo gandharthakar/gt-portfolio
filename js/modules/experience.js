@@ -15,7 +15,7 @@ const prepHTML = (data) => {
             <div class="exp-item">
                 <div class="exp-item-box">
                     <div class="exp-item-bimg">
-                        <img src="${exp.company_logo ? `${basePath}/${exp.company_logo}` : pimgPath}" width="100px" height="100px" alt="Company Logo" />
+                        <img src="${exp.company_logo ? `${basePath}/${exp.company_logo}` : pimgPath}" width="100px" height="100px" alt="${exp.experience_title}" />
                     </div>
                     <div class="exp-item-bcont">
                         ${exp.experience_tags.length ? genTags(exp.experience_tags) : ''}

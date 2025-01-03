@@ -5,6 +5,7 @@
 @use './components/text';
 @use './components/header';
 @use './components/theme-switcher';
+@use './components/footer';
 
 // Sections
 @use './sections/home-section';
@@ -12,6 +13,7 @@
 @use './sections/skills-sections';
 @use './sections/experience-section';
 @use './sections/work-section';
+@use './sections/contact-section';
 
 // dark-mode css
 @use './utils/dark';
