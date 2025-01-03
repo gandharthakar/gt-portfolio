@@ -1641,7 +1641,7 @@ body {
   display: none;
 }
 [theme-mode=dark] .site-logo .dark-logo {
-  display: dark;
+  display: block;
 }
 [theme-mode=dark] .theme-switch-button {
   color: rgba(255, 255, 255, 0.7);
