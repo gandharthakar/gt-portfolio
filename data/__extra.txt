@@ -1,0 +1,28 @@
+[
+    {
+        "experience_id": "exp_01",
+        "company_logo": "textronics-logo.jpg",
+        "experience_tags": [
+            "Adobe Photoshop"
+        ],
+        "experience_title": "3D Mesh Designer",
+        "company_name": "Textronics Design Systems (I) Pvt. Ltd.",
+        "compnay_website": "https://www.textronic.com",
+        "company_location": "Mahape, Ghansoli (West), Navi Mumbai",
+        "working_experience": "2 Years, 5 Months",
+        "working_period": "April 2013 - August 2015",
+        "designation_post": "3D Mesh Designer"
+    },
+    {
+        "experience_id": "exp_04",
+        "company_logo": "vi-logo.jpg",
+        "experience_tags": [],
+        "experience_title": "CRE - Customer Relationship Executive",
+        "company_name": "Vodafone Idea Limited",
+        "compnay_website": "https://www.myvi.in",
+        "company_location": "Kalyan - (West).",
+        "working_experience": "1 Month",
+        "working_period": "06 July 2024 - 31 July 2024",
+        "designation_post": "Customer Relationship Executive"
+    }
+]
