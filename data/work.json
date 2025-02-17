@@ -151,11 +151,12 @@
             "work_description": "QuizeFesto is the online platform where you can participate on many quizzes created by our team and win excited prizes.",
             "work_tags": [
                 "Next JS",
-                "Vercel",
-                "PostgreSQL"
+                "TypeScript",
+                "PostgreSQL",
+                "Tanstack Query"
             ],
-            "work_github_link": "https://github.com/gandharthakar/quizfesto-platform",
-            "work_deployment_link": "https://quizfesto-platform.vercel.app"
+            "work_github_link": "https://github.com/gandharthakar/quizfesto-new",
+            "work_deployment_link": "https://quizfesto-new.vercel.app/"
         },
         {
             "work_id": "per_work_03",
@@ -165,7 +166,7 @@
             "work_tags": [
                 "MERN",
                 "Tanstack Query",
-                "Fullstack"
+                "TypeScript"
             ],
             "work_github_link": "https://github.com/gandharthakar/progress-tracker-app",
             "work_deployment_link": "https://progress-tracker-app.netlify.app"
